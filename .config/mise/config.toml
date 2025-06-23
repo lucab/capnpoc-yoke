@@ -1,0 +1,6 @@
+[tools]
+"cargo:capnpc" = "0.21.0"
+
+[tasks.codegen-capnp]
+description = "Generate Rust code from Capnproto"
+run = "./scripts/codegen.sh"
